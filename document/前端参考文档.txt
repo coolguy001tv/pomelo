@@ -1,0 +1,14 @@
+~ 前端CSS样式参考metro-ui-css:
+http://www.bootcss.com/p/metro-ui-css/tiles.html
+~holder
+6种主题：sky, vine, lava, gray, industrial, and social
+eg:<img src="holder.js/200x300/sky">
+
+自定义主题包括5个属性：foreground, background, size, font and fontweight
+eg:Holder.add_theme("dark", {background:"#000", foreground:"#aaa", size:11, font: "Monaco", fontweight:"normal"})
+
+
+holder其他项参考
+https://github.com/imsky/holder
+
+~ grunt-uglify可以参考：http://www.cnblogs.com/artwl/p/3449303.html

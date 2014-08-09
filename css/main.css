@@ -1,0 +1,21 @@
+.tile{
+    background-color: #525252;
+    box-shadow: 0 0 1px #ffffcc inset;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-family: 'Segoe UI Semilight','Open Sans',Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11pt;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 20px;
+    margin: 0 10px 10px 0;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    width: 150px;
+}
+.tile:hover{
+    outline: 3px solid #a3a3a3;
+}

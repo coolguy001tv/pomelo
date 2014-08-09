@@ -1,0 +1,13 @@
+{
+    "name": "pomelo",
+    "version": "0.0.1",
+    "devDependencies": {
+        "grunt-contrib-watch": "*",
+        "grunt-contrib-concat": "*",
+        "grunt-contrib-uglify":"*",
+        "grunt-contrib-imagemin":"~0.7.1",
+        "grunt-contrib-cssmin":"~0.10.0",
+        "grunt": "~0.4.2",
+        "grunt-contrib-htmlmin":"~0.3.0"
+    }
+}
