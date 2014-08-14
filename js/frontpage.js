@@ -13,11 +13,13 @@ jQuery.fn.extend({
             }else{
                 _this.text(total);
                 clearInterval(timeId);
+                _this.addClass("animated pulse");
             }
         },100);
     }
 });
 $(function(){
+    $(".jumbotron").addClass("animated slideInDown");
     $("#count").addNumberStyle();
 });
 
