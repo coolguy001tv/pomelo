@@ -58,3 +58,39 @@
     from {background:RGB(146,209,79);}
     to {background:RGB(107,130,174);}
 }
+.icon-li{
+    /*animation-iteration-count:infinite;*/
+    /*-webkit-animation-iteration-count:infinite;*/
+    animation:rotate 2s linear infinite;
+    -webkit-animation:rotate 2s linear infinite;
+
+}
+.item1{
+    background: url("../image/sprite.png") no-repeat 0 -48px;
+    animation:rotate 2s linear infinite;
+    -webkit-animation:rotate 2s linear infinite;
+}
+@-webkit-keyframes rotate{
+    from {
+        transform:rotate(0);
+        -moz-transform:rotate(0);
+        -webkit-transform:rotate(0);
+    }
+    to {
+        transform:ratate(360deg);
+        -moz-transform:rotate(360deg);
+        -webkit-transform:rotate(360deg);
+    }
+}
+@keyframes  rotate{
+    from {
+        transform:rotate(0);
+        -moz-transform:rotate(0);
+        -webkit-transform:rotate(0);
+    }
+    to {
+        transform:ratate(360deg);
+        -moz-transform:rotate(360deg);
+        -webkit-transform:rotate(360deg);
+    }
+}
