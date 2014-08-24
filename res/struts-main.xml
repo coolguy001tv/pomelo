@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+	<package name="dang-main" extends="dang-default" namespace="/main">
+		<!-- 商品种类列表 -->
+		<action name="listcats" class="com.lzq.dang.action.main.CategoryAction">
+			<result name="success">/main/category.jsp</result>
+		</action>
+		<!-- BookList详细列表 -->
+		<action name="booklist" class="com.lzq.dang.action.main.BookListAction">
+			<result name="success">/main/book_list.jsp</result>
+			<result name="search">/main/search_book.jsp</result>
+			<result name="listByPrice">/main/book_list.jsp</result>
+		</action> 
+		<!-- 商品排行列表 -->
+		<action name="productlist" class="com.lzq.dang.action.main.ProductAction">
+			<result name="listNew">/main/new.jsp</result>
+			<result name="listRecommend">/main/recommend.jsp</result>
+		</action>
+	</package>
+</struts>
+

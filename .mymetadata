@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="pomelo_v1"
+  id="myeclipse.1408890554192"
+  context-root="/pomelo_v1"
+  j2ee-spec="6.0"
+  archive="pomelo_v1.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
