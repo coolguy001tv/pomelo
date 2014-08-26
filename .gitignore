@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *.class
 
 # Mobile Tools for Java (J2ME)
@@ -17,6 +16,5 @@ hs_err_pid*
 
 #webstorm/phpstormÅäÖÃÄ¿Â¼
 /.idea/
-=======
+
 /test
->>>>>>> 2dd33fafd8b2c4ea82520355d0c307aad27875c5
