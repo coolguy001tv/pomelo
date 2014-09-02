@@ -55,6 +55,10 @@
     margin: 0px;
     height: 60px;
     border: 0px;
+    border-bottom-right-radius:0px;
+    border-bottom-left-radius:0px;
+    border-top-right-radius:0px;
+    border-top-left-radius:0px;
     background-color: RGB(242,242,242);
     color:#999999;
     font-size: 1.5em;
