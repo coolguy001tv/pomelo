@@ -25,5 +25,7 @@ jQuery.fn.extend({
 $(function(){
     $(".jumbotron").addClass("animated slideInDown");
     $("#count").addNumberStyle();
+    //高度适应
+    //$('.jumbotron').height($('.jumbotron').width());
 });
 
