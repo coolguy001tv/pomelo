@@ -1,0 +1,10 @@
+前端主要涉及到以下文件（夹）：
+css文件夹
+	该文件存放所有CSS文件，包括目前基础的bootstrap.css/bootstrap.min.css、bootstrap主题css文件（暂未使用）bootstrap-theme.css/bootstrap-theme.min.css、样式文件main.css、动画效果文件animate.css，动画实际效果参考http://daneden.github.io/animate.css/。
+	其中main.css文件包含了所有的页面级的样式，该文件请写明注释，方便后面查阅。
+image文件夹
+	存放所有图片
+js文件夹
+	存放所有JavaScript文件，原则上每个页面都可以用一个JavaScript文件来完成他的代码实现
+fonts文件夹
+	需要使用的字体图标

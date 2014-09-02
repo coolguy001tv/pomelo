@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+	<include file="struts-main.xml"/>
+
+	
+	<package name="dang-default" 
+			extends="json-default">
+	<!-- 定义各个模块都使用的共同元素 -->
+		<global-results>
+			<result name="error">/error.jsp</result>
+			<result name="login" type="redirect">../user/login_form.jsp</result>
+		</global-results>
+	
+		 <!--<global-exception-mappings>
+		 	<exception-mapping 
+		 		exception="java.lang.Exception"
+		 	 	result="error">
+		 	</exception-mapping>
+		 </global-exception-mappings>
+		
+	--></package>
+</struts>
+
