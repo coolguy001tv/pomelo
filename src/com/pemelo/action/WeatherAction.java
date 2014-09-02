@@ -6,7 +6,7 @@ import com.pemelo.service.WeatherService;
 
 public class WeatherAction extends BasicAction{
 	/**
-	 * 
+	 * http://localhost:8080/pomelo_v1/weather?cityName=成都
 	 */
 	private static final long serialVersionUID = 1L;
 	String weatherInfo;
@@ -32,12 +32,12 @@ public class WeatherAction extends BasicAction{
 	
 	public String weather(){
 		try {
-			//cityName="成都";
-			if(cityName==null||cityName.isEmpty()){
+			String city=new String(cityName.getBytes("iso8859-1"),"UTF-8");//
+			if(city==null||city.isEmpty()){
 				return "error";
 			}
-			System.out.println("cityName : "+cityName);
-			weatherService.getWeatherInfo(cityName);
+			System.out.println("city : "+city);
+			weatherService.getWeatherInfo(city);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
