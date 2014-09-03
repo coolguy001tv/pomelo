@@ -2,7 +2,8 @@
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
-
+#java project
+/.settings/
 # Package Files #
 *.jar
 *.war
@@ -16,3 +17,5 @@ hs_err_pid*
 
 #webstorm/phpstormÅäÖÃÄ¿Â¼
 /.idea/
+
+/test
