@@ -5,7 +5,7 @@
 
 <struts>
 	<include file="struts-main.xml"/>
-
+	<include file="struts-weather.xml"/>
 	
 	<package name="dang-default" 
 			extends="json-default">
