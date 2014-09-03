@@ -7,8 +7,8 @@
 	<include file="struts-main.xml"/>
 
 	
-	<package name="dang-default" 
-			extends="json-default">
+	<package name="pomelo-default" 
+			extends="struts-default">
 	<!-- 定义各个模块都使用的共同元素 -->
 		<global-results>
 			<result name="error">/error.jsp</result>
