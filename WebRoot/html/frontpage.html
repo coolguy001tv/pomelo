@@ -14,7 +14,6 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/main.css" rel="stylesheet">
     <link href="../css/animate.css" rel="stylesheet">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -25,16 +24,39 @@
 <body id="frontpage">
 <div class="jumbotron">
     <div class="container">
-        <p class="text-left"><strong>你是第</strong></p>
-        <p id="count"><strong>315</strong></p>
-        <p class="text-right"><strong>位访问客户</strong></p>
+    	<div class='box'>
+		    <div class='content text-center'>
+		    	<img src="../image/circle.png"/>
+		    	<div id="count-container">
+		    		<p style="margin-top: 50%;"><strong>你是第</strong></p>
+				    <p id="count"><strong>315</strong></p>
+				    <p><strong>位访问客户</strong></p>
+		    	</div>
+    	
+		    </div>
+		</div>
+        
     </div>
 </div>
 <div id="list">
     <ul class="list-group">
-        <li class="list-group-item">小工具</li>
-        <li class="list-group-item">小游戏</li>
-        <li class="list-group-item">关于我们</li>
+        <li class="list-group-item c1">
+        	<div class="row">
+			  <div class="col-xs-2 col-xs-offset-2"><img class="icon-li" src="../image/clock.png"></div>
+			  <div class="col-xs-8 text-left">小工具</div>
+			</div>
+        <li class="list-group-item c2">
+	        <div class="row">
+			  <div class="col-xs-4">.</div>
+			  <div class="col-xs-8">小游戏</div>
+			</div>
+        </li>
+        <li class="list-group-item c3">
+        	<div class="row">
+			  <div class="col-xs-2 col-xs-offset-2"><img class="icon-li animate-delay1" src="../image/about_us.png"></div>
+			  <div class="col-xs-8 text-left">关于我们</div>
+			</div>
+        </li>
     </ul>
 </div>
 

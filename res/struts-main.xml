@@ -4,29 +4,9 @@
     "http://struts.apache.org/dtds/struts-2.1.7.dtd">
 
 <struts>
-	<package name="visit" extends="pomelo-default" namespace="/visit">
-		<action name="visitor" class="com.pemelo.action.CountAction" method="count">
+	<package name="count" extends="dang-default" namespace="/test">
+		<action name="count" class="com.pemelo.action.CountAction" method="count">
 			<result>/jsp/frontpage.jsp</result>
-		</action>
-		
-		<action name="addPower_yx" class="com.pemelo.action.CountPowerAction" method="Power_yx">
-			<result name="success_yx">/jsp/testPower_yx.jsp</result>
-		</action>
-		
-		<action name="addPower_zl" class="com.pemelo.action.CountPowerAction" method="Power_zl">
-			<result name="success_zl">/jsp/testPower_zl.jsp</result>
-		</action>
-		
-		<action name="addPower_dl" class="com.pemelo.action.CountPowerAction" method="Power_dl">
-			<result name="success_dl">/jsp/testPower_dl.jsp</result>
-		</action>
-		
-		<action name="addPower_ysb" class="com.pemelo.action.CountPowerAction" method="Power_ysb">
-			<result name="success_ysb">/jsp/testPower_ysb.jsp</result>
-		</action>
-		
-		<action name="addPower_lzq" class="com.pemelo.action.CountPowerAction" method="Power_lzq">
-			<result name="success_lzq">/jsp/testPower_lzq.jsp</result>
 		</action>
 	
 	</package>

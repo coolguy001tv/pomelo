@@ -5,10 +5,11 @@
 
 <struts>
 	<include file="struts-main.xml"/>
-
+	<include file="struts-weather.xml"/>
+	<include file="struts-team.xml"/>
 	
-	<package name="pomelo-default" 
-			extends="struts-default">
+	<package name="dang-default" 
+			extends="json-default">
 	<!-- 定义各个模块都使用的共同元素 -->
 		<global-results>
 			<result name="error">/error.jsp</result>
