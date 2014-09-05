@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+	<package name="team" extends="dang-default">
+		<action name="getAllPlayerPower" class="com.pemelo.action.TeamAction" method="getAllPlayerPower">
+			<result name="success">/jsp/ourTeamPage.jsp</result>
+
+		</action>
+		
+		<action name="addPlayerPowerById" class="com.pemelo.action.TeamAction" method="addPlayerPowerById">
+			<result name="success">/jsp/ourTeamPage.jsp</result>
+
+		</action>
+	
+	</package>
+	
+</struts>
+
